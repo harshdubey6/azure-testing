@@ -47,7 +47,7 @@ export default function TodoForm({ onSubmit }: TodoFormProps) {
             onChange={(e) => setTitle(e.target.value)}
             disabled={isLoading}
             placeholder="What needs to be done?"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 placeholder:text-gray-400 placeholder:opacity-100 text-gray-900"
           />
         </div>
 
@@ -62,7 +62,7 @@ export default function TodoForm({ onSubmit }: TodoFormProps) {
             disabled={isLoading}
             placeholder="Add more details... (optional)"
             rows={3}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 resize-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 resize-none placeholder:text-gray-400 placeholder:opacity-100 text-gray-900"
           />
         </div>
 
